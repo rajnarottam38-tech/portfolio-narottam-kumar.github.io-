@@ -11,20 +11,20 @@
   <style>
     /* ===== CSS VARIABLES ===== */
     :root {
-      --bg-primary: #0a0a0a;
-      --bg-secondary: #111111;
-      --bg-card: #1a1a1a;
-      --bg-card-hover: #222222;
-      --accent: #f0c040;
-      --accent-dim: rgba(240, 192, 64, 0.15);
-      --accent-hover: #ffd050;
-      --text-primary: #f0f0f0;
+      --bg-primary: #000000;
+      --bg-secondary: #080808;
+      --bg-card: #121212;
+      --bg-card-hover: #1c1c1c;
+      --accent: #ffffff;
+      --accent-dim: rgba(255, 255, 255, 0.12);
+      --accent-hover: #d0d0d0;
+      --text-primary: #f5f5f5;
       --text-secondary: #aaaaaa;
       --text-muted: #666666;
       --border: #2a2a2a;
-      --border-accent: rgba(240, 192, 64, 0.4);
-      --shadow: 0 4px 24px rgba(0,0,0,0.5);
-      --shadow-accent: 0 4px 24px rgba(240,192,64,0.15);
+      --border-accent: rgba(255, 255, 255, 0.4);
+      --shadow: 0 4px 24px rgba(0,0,0,0.6);
+      --shadow-accent: 0 4px 24px rgba(255,255,255,0.12);
       --radius: 12px;
       --transition: 0.25s ease;
       --font-heading: 'Poppins', sans-serif;
@@ -205,7 +205,7 @@
       content: '';
       position: absolute; top: -200px; right: -200px;
       width: 500px; height: 500px;
-      background: radial-gradient(circle, rgba(240,192,64,0.06) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
       pointer-events: none;
     }
     .hero-inner {
@@ -281,7 +281,7 @@
     .profile-photo-ring {
       position: absolute; inset: -8px;
       border-radius: 50%;
-      border: 2px dashed rgba(240,192,64,0.3);
+      border: 2px dashed rgba(255,255,255,0.3);
       animation: spin 12s linear infinite;
     }
     @keyframes spin { to { transform: rotate(360deg); } }
@@ -432,7 +432,7 @@
       color: var(--accent);
       padding: 0.25rem 0.6rem;
       border-radius: 4px;
-      border: 1px solid rgba(240,192,64,0.2);
+      border: 1px solid rgba(255,255,255,0.2);
     }
     .project-btn {
       align-self: flex-start;
